@@ -1,0 +1,16 @@
+Teste funcional executado com GCC 14 / C11
+
+Cenario:
+- destino inicial: 5 registros
+- novas entradas: 4 registros
+- 2 novas chaves
+- 1 duplicata de uma chave ja existente no destino
+- 1 duplicata de uma chave aceita anteriormente no mesmo arquivo de entrada
+
+Resultado nos quatro modos:
+seq-it    -> lidas=4, inseridas=2, duplicatas=2, comparacoes=19
+seq-rec   -> lidas=4, inseridas=2, duplicatas=2, comparacoes=19
+merge-it  -> lidas=4, inseridas=2, duplicatas=2, comparacoes=9
+merge-rec -> lidas=4, inseridas=2, duplicatas=2, comparacoes=9
+
+O destino final possui 7 registros e nenhum Identificador repetido.

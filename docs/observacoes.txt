@@ -1,0 +1,2 @@
+Observacao para a entrega:
+A atividade pede o endereco de um repositorio git publico. O projeto local esta estruturado para ser publicado. Depois de criar o repositorio publico no GitHub, atualize o campo do relatorio com a URL final e faca push.
