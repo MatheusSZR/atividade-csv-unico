@@ -58,19 +58,3 @@ O programa:
 
 Na Solucao 2, os identificadores do destino sao carregados na RAM, ordenados com MergeSort e pesquisados por busca binaria. Ao aceitar uma nova entrada, a chave tambem e inserida na posicao correta do vetor ordenado para que as entradas seguintes continuem sendo verificadas.
 
-## Fixture de teste
-
-A base pequena em `data/` e apenas uma massa de teste reproduzivel. Ela nao substitui o CSV oficial.
-
-Para executar quatro demonstracoes, faca uma copia do destino a cada vez, porque o programa altera o arquivo.
-
-## Estrutura
-
-- `src/`: implementacoes em C.
-- `data/`: fixtures de teste.
-- `docs/complexidade.md`: analise de complexidade.
-- `relatorio/`: PDF da entrega.
-
-## Publicacao
-
-Consulte `PUBLICAR_NO_GITHUB.md` para publicar o projeto como um repositorio publico. O relatorio foi preparado para ser entregue em PDF; depois de publicar o codigo, substitua no relatorio o campo de repositorio pela URL final, caso deseje deixar o PDF totalmente preenchido.
